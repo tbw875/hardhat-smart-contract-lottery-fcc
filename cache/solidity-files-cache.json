@@ -1,52 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/twalsh/Documents/SideProjects/Solidity_JS/hh-fcc/hardhat-smart-contract-lottery-fcc/contracts/lottery.sol": {
-      "lastModificationDate": 1656880713444,
-      "contentHash": "402c97ff2b9ac1a409c281a526ab3d91",
-      "sourceName": "contracts/lottery.sol",
-      "solcConfig": {
-        "version": "0.8.7",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
-        "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
-        "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.7"
-      ],
-      "artifacts": [
-        "Raffle"
-      ]
-    },
     "/Users/twalsh/Documents/SideProjects/Solidity_JS/hh-fcc/hardhat-smart-contract-lottery-fcc/node_modules/@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol": {
       "lastModificationDate": 1656717326951,
       "contentHash": "eb9cc526ef59dfc4d644f56ddca0633a",
@@ -302,6 +256,52 @@
         "^0.8.4"
       ],
       "artifacts": []
+    },
+    "/Users/twalsh/Documents/SideProjects/Solidity_JS/hh-fcc/hardhat-smart-contract-lottery-fcc/contracts/raffle.sol": {
+      "lastModificationDate": 1657668816944,
+      "contentHash": "d78b9daf76569c5e3e55eafe82f1ff7a",
+      "sourceName": "contracts/raffle.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
+        "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
+        "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Raffle"
+      ]
     }
   }
 }
